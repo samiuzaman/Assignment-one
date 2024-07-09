@@ -11,6 +11,29 @@ body {
 }
 /* Reset Code End */
 /* Header Section Code Start Here */
+/* Navigation Bar Code Start Here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+nav h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+nav button {
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+nav button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+/* Navigation Bar Code End Here */
+/* Banner Section Code Start Here */
 #banner-section {
   width: 100%;
   height: 100vh;
@@ -32,7 +55,7 @@ body {
   line-height: 26px;
   margin-left: 20px;
   padding-top: 24px;
-  padding-bottom: 50px;
+  padding-bottom: 55px;
 }
 #banner-section a {
   font-size: 20px;
@@ -54,6 +77,7 @@ body {
   padding-top: 60px;
   padding-bottom: 30px;
 }
+/* Banner Section Code End Here */
 /* Header Section Code End Here */
 /* Web Development Details Section Code Start Here */
 #web-development-details-section {
