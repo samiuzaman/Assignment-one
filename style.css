@@ -230,3 +230,61 @@ body {
   color: #222f3e;
 }
 /* My Current Target Section Code End Here */
+/* Feedback Submit Section Code Start Here */
+#feedback-submit-section {
+  width: 80%;
+  height: 50vh;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-radius: 15px;
+}
+.feedback-submit-title-container {
+  padding-top: 80px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feedback-submit-title-container h2 {
+  font-size: 35px;
+  font-weight: 100;
+  line-height: 36px;
+  padding-bottom: 18px;
+}
+.feedback-submit-title-container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.feedback-submit-section-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.feedback-submit-section-input input {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+.feedback-submit-section-input input[type="text"] {
+  width: 440px;
+}
+.feedback-submit-section-input input::placeholder {
+  padding-left: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.feedback-submit-section-input input[type="submit"] {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* Feedback Submit Section Code End Here */
