@@ -63,6 +63,7 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
   padding-bottom: 60px;
+  border-radius: 15px;
 }
 .web-development-details-parent-contain {
 }
@@ -125,40 +126,107 @@ body {
 }
 /* Web Development Details Section Code End Here */
 /* My Inspiration Section Code Start Here */
-#my-inspiration-section{
+#my-inspiration-section {
   width: 80%;
   margin: 0 auto;
   padding-bottom: 100px;
 }
-.my-inspiration-title{
+.my-inspiration-title {
   width: 65%;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 50px;
 }
-.my-inspiration-title h2{
+.my-inspiration-title h2 {
   font-size: 30px;
   font-weight: 700;
   line-height: 37px;
   margin-bottom: 24px;
 }
-.my-inspiration-title p{
+.my-inspiration-title p {
   color: #0d1321b3;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   text-align: justify;
 }
-.my-inspiration-iframe-video{
+.my-inspiration-iframe-video {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #0d1321a6;
   border-radius: 15px;
 }
-.my-inspiration-iframe-video iframe{
+.my-inspiration-iframe-video iframe {
   width: 100%;
   height: 75vh;
   border-radius: 15px;
 }
 /* My Inspiration Section Code End Here */
+/* My Current Target Section Code Start Here */
+#my-current-target {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.my-current-target-title-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.my-current-target-title-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37px;
+  color: #0d1321;
+  padding-bottom: 24px;
+  text-align: center;
+}
+.my-current-target-title-container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: justify;
+  color: #0d1321b3;
+}
+.my-current-target-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.my-current-target-card-one,
+.my-current-target-card-two,
+.my-current-target-card-three {
+  width: 32%;
+  padding: 30px 35px;
+  text-align: justify;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px gray;
+}
+.my-current-target-card-one {
+  background-color: #9c59b688;
+}
+.my-current-target-card-two {
+  background-color: #54a1ff94;
+}
+.my-current-target-card-three {
+  background-color: #1abc9c85;
+}
+.my-current-target-card-container h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  padding: 24px 0;
+}
+.my-current-target-card-container p {
+  font-size: 16x;
+  font-weight: 400;
+  color: #0d1321b3;
+  padding-bottom: 24px;
+}
+.my-current-target-card-container a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222f3e;
+}
+/* My Current Target Section Code End Here */
