@@ -14,7 +14,7 @@ body {
 #banner-section {
   width: 100%;
   height: 100vh;
-  background-image: url(assets/hero-bg.png);
+  background-image: url(assets/banner-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -34,7 +34,7 @@ body {
   padding-top: 24px;
   padding-bottom: 32px;
 }
-#banner-section button {
+#banner-section a {
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
@@ -45,11 +45,9 @@ body {
   color: #fff;
   background-color: #000000;
   border-radius: 10px;
+  text-decoration: none;
 }
-#banner-section button:hover {
-  background-color: #747d8c;
-}
-#banner-section button:focus {
+#banner-section a:hover {
   background-color: #70a1ff;
 }
 #banner-section img {
@@ -126,3 +124,41 @@ body {
   cursor: pointer;
 }
 /* Web Development Details Section Code End Here */
+/* My Inspiration Section Code Start Here */
+#my-inspiration-section{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.my-inspiration-title{
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.my-inspiration-title h2{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+.my-inspiration-title p{
+  color: #0d1321b3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: justify;
+}
+.my-inspiration-iframe-video{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #0d1321a6;
+  border-radius: 15px;
+}
+.my-inspiration-iframe-video iframe{
+  width: 100%;
+  height: 75vh;
+  border-radius: 15px;
+}
+/* My Inspiration Section Code End Here */
